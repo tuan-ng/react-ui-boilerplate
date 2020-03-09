@@ -6,5 +6,9 @@ const StyledPage = styled.div`
 `;
 
 export default function Page() {
-  return <div>Page Component</div>;
+  return (
+    <StyledPage>
+      <h1> Page </h1>
+    </StyledPage>
+  );
 }
